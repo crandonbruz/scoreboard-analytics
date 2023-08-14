@@ -1,44 +1,410 @@
-<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech-Blog!</title>
-  <link rel="stylesheet" href="/css/jass.css">
-  <link rel="stylesheet" href="/css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech-Blog!</title>
+    <link rel="stylesheet" href="/css/jass.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="money"></span>
-        <a href="/">Tech Blog</a>
-      </h1>
-      <nav>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
-    </header>
-    <main class="container container-fluid mt-5">
-      <!-- Render the sub layout -->
-      {{{ body }}}
-    </main>
-    <footer>
-      
-    </footer>
-  </div>
+  <body>
+    <div class="flex-column justify-space-around">
+      <header class="display-flex justify-space-between align-center p-2">
+        <h1>
+          <span role="img" aria-label="money"></span>
+          <a href="/">Tech Blog</a>
+        </h1>
+        <nav>
+          <!-- Conditionally render login or logout links -->
+          {{#if logged_in}}
+            <a href="/profile">profile</a>
+            |
+            <button class="no-button" id="logout">logout</button>
+          {{else}}
+            <a href="/login">login</a>
+          {{/if}}
+        </nav>
+      </header>
+      <main class="container container-fluid mt-5">
+        <!-- Render the sub layout -->
+        {{!-- {{{ body }}} --}}
+        <div class="container">
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/tropicana-field.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/oakland.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/angels.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/tigers.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/dbacks.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/toronto.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/brewers.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/indians-stadium.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/astros.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/marlins.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/nationals.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/royals.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/braves.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/yankee-stadium.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/dodger.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/phillies.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/texas.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/cardinals.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/mariners.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/twins.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/camden-yards.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/rockies.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/mets.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/cubs.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/padres.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/fenway.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/giants.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/pirates.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/reds.jpg" style="width:100%" />
+          </div>
+          <div class="mySlides">
+            <img src="../../public/image/stadiums/white-sox.jpg" style="width:100%" />
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="row">
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/tropicana-field.jpg"
+                style="width:100%"
+                onclick="currentSlide(1)"
+                alt="Tropicana Field"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/oakland.jpg"
+                style="width:100%"
+                onclick="currentSlide(2)"
+                alt="Oakland Coliseum"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/angels.jpg"
+                style="width:100%"
+                onclick="currentSlide(3)"
+                alt="Angel Stadium"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/tigers.jpg"
+                style="width:100%"
+                onclick="currentSlide(4)"
+                alt="Comerica Park"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/dbacks.jpg"
+                style="width:100%"
+                onclick="currentSlide(5)"
+                alt="Chase Field"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/toronto.jpg"
+                style="width:100%"
+                onclick="currentSlide(6)"
+                alt="Rogers Center"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/brewers.jpg"
+                style="width:100%"
+                onclick="currentSlide(7)"
+                alt="American Family Ballpark"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/indians-stadium.jpg"
+                style="width:100%"
+                onclick="currentSlide(8)"
+                alt="Progressive Field"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="../../public/image/stadiums/astros.jpg"
+                style="width:100%"
+                onclick="currentSlide(9)"
+                alt="Minute Mid Park"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(10)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(11)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(12)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(13)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(14)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(15)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(16)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(17)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(18)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(19)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(20)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(21)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(22)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(23)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(24)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(25)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(26)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(27)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(28)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(29)"
+                alt="The Woods"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="img_woods.jpg"
+                style="width:100%"
+                onclick="currentSlide(30)"
+                alt="The Woods"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
 
-  <!-- Render script for logged in users only -->
-  {{#if logged_in}}
-  <script src="/js/logout.js"></script>
-  {{/if}}
-</body>
+      </footer>
+    </div>
+
+    <!-- Render script for logged in users only -->
+    {{#if logged_in}}
+      <script src="/js/logout.js"></script>
+    {{/if}}
+  </body>
 
 </html>
