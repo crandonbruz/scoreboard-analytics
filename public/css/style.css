@@ -22,3 +22,26 @@ header, .project:not(:last-child) {
   font-weight: bold;
   margin-left: -5px;
 }
+
+.logo {
+    height: 300px;
+    width: auto;
+    display: flex;
+    position: absolute;
+    top: -80px;
+    left: 30px;
+
+    
+}
+
+.form-signin{
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 100px;
+  max-height: 500px;
+
+
+}
+
