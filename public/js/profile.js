@@ -25,7 +25,7 @@ const newFormHandler = async (event) => {
 
   if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh) {
     console.log('pitcherName:', pitcherName);
-    const response = await fetch(`/api/posts`, {
+    const response = await fetch(`/api/selection`, {
       method: 'POST',
       body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
       headers: {
@@ -47,7 +47,7 @@ const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
 
-    const response = await fetch(`/api/posts/${id}`, {
+    const response = await fetch(`/api/selection/${id}`, {
       method: 'DELETE',
     });
 

@@ -2,11 +2,11 @@ const router = require('express').Router();
 const { Selection } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.Selection('/', withAuth, async (req, res) => {
+router.post('/',  async (req, res) => {
   try {
     const newSelection = await Selection.create({
       ...req.body,
-      user_id: req.session.user_id,
+      // user_id: req.session.user_id,
     });
 
     res.status(200).json(newSelection);
@@ -15,7 +15,7 @@ router.Selection('/', withAuth, async (req, res) => {
   }
 });
 
-router.delete('/:id', withAuth, async (req, res) => {
+router.delete('/:id',async (req, res) => {
   try {
     const SelectionData = await Selection.destroy({
       where: {
