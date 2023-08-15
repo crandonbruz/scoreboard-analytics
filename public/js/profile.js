@@ -1,6 +1,8 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
+  console.log('Form submit button clicked');
+
   
   const teamName  = document.querySelector('#teamName').value.trim();
   const pitcherName  = document.querySelector('#pitcherName').value.trim();
@@ -18,17 +20,20 @@ const newFormHandler = async (event) => {
   const rightField  = document.querySelector('#rightField').value.trim();
   const dh  = document.querySelector('#dh').value.trim();
   
-  
-
+  console.log('Team Name:', teamName);
+  // ... other fields ...
 
   if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh) {
-    const response = await fetch(`/api/posts`, {
+    console.log('pitcherName:', pitcherName);
+    const response = await fetch(`/api/selection`, {
       method: 'POST',
       body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
       headers: {
-        'teamName -Type': 'application/json',
+        'teamName-Type': 'application/json',
       },
+      
     });
+    
 
     if (response.ok) {
       document.location.replace('/profile');
@@ -42,7 +47,7 @@ const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
 
-    const response = await fetch(`/api/posts/${id}`, {
+    const response = await fetch(`/api/selection/${id}`, {
       method: 'DELETE',
     });
 
@@ -61,3 +66,6 @@ document
 // document
   // .querySelector('.post-list')
   // .addEventListener('click', delButtonHandler);
+// document
+//   .querySelector('.btn btn-primary')
+//   .addEventListener('click', delButtonHandler);

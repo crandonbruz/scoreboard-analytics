@@ -15,13 +15,34 @@ Selection.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    playerName: {
+    firstBase: {
       type: DataTypes.STRING,
     },
     pitcherName: {
         type: DataTypes.STRING,
       },
-      winLose: {
+      secondBase: {
+        type: DataTypes.STRING,
+      },
+      thirdBase: {
+        type: DataTypes.STRING,
+      },
+      shortStop: {
+        type: DataTypes.STRING,
+      },
+      catcher: {
+        type: DataTypes.STRING,
+      },
+      leftField: {
+        type: DataTypes.STRING,
+      },
+      centerField: {
+        type: DataTypes.STRING,
+      },
+      rightField: {
+        type: DataTypes.STRING,
+      },
+      dh: {
         type: DataTypes.STRING,
       },
     date_created: {
