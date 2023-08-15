@@ -1,9 +1,16 @@
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
+
 body {
-  background-color: #8bdaed;
+  background-image: url('../images/miami.jpg'); /* Replace with your image file name */
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
 }
+/* body {
+  background-color: #8bdaed;
+} */
 .no-button {
   background: none;
   border: none;
@@ -47,23 +54,87 @@ body {
 
 }
 .bg-color-light {
-  background-color: #8bdaed;
   margin-bottom: 70px;
 }
 
-.btn-warning {
-  background-color: #f7468A;
-  color: #fff;
-  padding: 10px 20px; /* Adjust padding as needed */
-  border-radius: 5px; /* Add rounded corners */
-  text-decoration: none; /* Remove default underline */
+
+
+
+.btn-primary.btn-lg.btn-block {
+  /* Change the color property to your desired color */
+  background-color: #3A308F; /* Button background color */
+  border-color: #F7468A; /* Button border color */
+  border-width: 3px;
+  color: #34C2F0; /* Text color */
   font-weight: bold;
 }
 
-.btn-warning:hover {
-  background-color: #d43f74; /* Darker color on hover */
-  transition: background-color 0.3s ease-in-out;
+/* Target the "Sign in" button on hover */
+.btn-primary.btn-lg.btn-block:hover {
+  /* Change the color property to your desired color */
+  background-color: #F7468A; /* Button background color on hover */
+  border-color: #F7468A; /* Button border color on hover */
+  border-width: 3px;
+  color: #34C2F0; /* Text color on hover */
 }
+.btn-outline-light.me-2 {
+  /* Change the color property to your desired color */
+  color: #34C2F0; /* Text color */
+  border-width: 3px;
+  border-color: #34C2F0; /* Border color */
+  font-weight: bold;
+}
+
+/* Target the Sign-up button */
+.btn-outline-light.me-2:hover {
+  /* Change the color property to your desired color */
+  color: #ffffff; /* Text color on hover */
+  border-color: #ffffff; /* Border color on hover */
+  border-width: 3px;
+}
+
+/* Optional: To change the background color of the buttons */
+.btn-outline-light.me-2 {
+  background-color: #3A308F;
+}
+
+/* Optional: To change the background color of the buttons on hover */
+.btn-outline-light.me-2:hover {
+  background-color: transparent;
+}
+
+.form-signin {
+  /* Change the color property to your desired color */
+  color: 255 255 255 255; /* Text color for the entire form */
+  font-weight: bold;
+}
+
+/* Target specific elements within the form and override the color if needed */
+.form-signin h1,
+.form-signin label,
+.form-signin input,
+.form-signin button,
+.form-signin p {
+  color: inherit;
+}
+
+.form-signin {
+  margin-top: 10px; /* Adjust this value to move the form up by changing the margin-top value */
+}
+
+/* Optionally, if you want to remove spacing between form elements */
+.form-signin label,
+.form-signin input,
+.form-signin button,
+.form-signin p {
+  margin-bottom: 0;
+
+
+
+
+
+
+
 
 .custom-btn-color {
   background-color: #f7468A;
