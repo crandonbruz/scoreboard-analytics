@@ -1,0 +1,2180 @@
+{
+  "cf": [
+    {
+      "PlayerID": 10008206,
+      "Name": "Luis Robert Jr.",
+      "Team": "CHW",
+      "Position": "CF",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007299,
+      "Name": "Jazz Chisholm Jr.",
+      "Team": "MIA",
+      "Position": "CF",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009010,
+      "Name": "Chas McCormick",
+      "Team": "HOU",
+      "Position": "CF",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007860,
+      "Name": "Jack Suwinski",
+      "Team": "PIT",
+      "Position": "CF",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007647,
+      "Name": "Cedric Mullins",
+      "Team": "BAL",
+      "Position": "CF",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10003122,
+      "Name": "Cody Bellinger",
+      "Team": "CHC",
+      "Position": "CF",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005405,
+      "Name": "Jose Siri",
+      "Team": "TB",
+      "Position": "CF",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008513,
+      "Name": "Julio RodrÃ­guez",
+      "Team": "SEA",
+      "Position": "CF",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001907,
+      "Name": "Brandon Nimmo",
+      "Team": "NYM",
+      "Position": "CF",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007252,
+      "Name": "TJ Friedl",
+      "Team": "CIN",
+      "Position": "CF",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007006,
+      "Name": "Mickey Moniak",
+      "Team": "LAA",
+      "Position": "CF",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008455,
+      "Name": "Daulton Varsho",
+      "Team": "TOR",
+      "Position": "CF",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010393,
+      "Name": "Michael Harris II",
+      "Team": "ATL",
+      "Position": "CF",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10012277,
+      "Name": "Lars Nootbaar",
+      "Team": "STL",
+      "Position": "CF",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010705,
+      "Name": "Johan Rojas",
+      "Team": "PHI",
+      "Position": "CF",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005503,
+      "Name": "Harrison Bader",
+      "Team": "NYY",
+      "Position": "CF",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009338,
+      "Name": "Kyle Isbel",
+      "Team": "KC",
+      "Position": "CF",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006836,
+      "Name": "Leody Taveras",
+      "Team": "TEX",
+      "Position": "CF",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007060,
+      "Name": "Alex Call",
+      "Team": "WSH",
+      "Position": "CF",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010383,
+      "Name": "Brenton Doyle",
+      "Team": "COL",
+      "Position": "CF",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10011607,
+      "Name": "Joey Wiemer",
+      "Team": "MIL",
+      "Position": "CF",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005672,
+      "Name": "Trent Grisham",
+      "Team": "SD",
+      "Position": "CF",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010353,
+      "Name": "Riley Greene",
+      "Team": "DET",
+      "Position": "CF",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008548,
+      "Name": "Esteury Ruiz",
+      "Team": "OAK",
+      "Position": "CF",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010045,
+      "Name": "James Outman",
+      "Team": "LAD",
+      "Position": "CF",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008190,
+      "Name": "Myles Straw",
+      "Team": "CLE",
+      "Position": "CF",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009383,
+      "Name": "Alek Thomas",
+      "Team": "ARI",
+      "Position": "CF",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008423,
+      "Name": "Heliot Ramos",
+      "Team": "SF",
+      "Position": "CF",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001369,
+      "Name": "Michael A. Taylor",
+      "Team": "MIN",
+      "Position": "CF",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001133,
+      "Name": "Adam Duvall",
+      "Team": "BOS",
+      "Position": "CF",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    }
+  ],
+  "rf": [
+    {
+      "PlayerID": 10002087,
+      "Name": "Aaron Judge",
+      "Team": "NYY",
+      "Position": "RF",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006868,
+      "Name": "Kyle Tucker",
+      "Team": "HOU",
+      "Position": "RF",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009516,
+      "Name": "Adolis GarcÃ­a",
+      "Team": "TEX",
+      "Position": "RF",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000779,
+      "Name": "Max Kepler",
+      "Team": "MIN",
+      "Position": "RF",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010342,
+      "Name": "Corbin Carroll",
+      "Team": "ARI",
+      "Position": "RF",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006969,
+      "Name": "Ronald AcuÃ±a Jr.",
+      "Team": "ATL",
+      "Position": "RF",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006717,
+      "Name": "Anthony Santander",
+      "Team": "BAL",
+      "Position": "RF",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010337,
+      "Name": "JJ Bleday",
+      "Team": "OAK",
+      "Position": "RF",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010954,
+      "Name": "Kerry Carpenter",
+      "Team": "DET",
+      "Position": "RF",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007217,
+      "Name": "Fernando Tatis Jr.",
+      "Team": "SD",
+      "Position": "RF",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007037,
+      "Name": "Nolan Jones",
+      "Team": "COL",
+      "Position": "RF",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007911,
+      "Name": "Lane Thomas",
+      "Team": "WSH",
+      "Position": "RF",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000499,
+      "Name": "George Springer",
+      "Team": "TOR",
+      "Position": "RF",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005191,
+      "Name": "JesÃºs SÃ¡nchez",
+      "Team": "MIA",
+      "Position": "RF",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002074,
+      "Name": "Hunter Renfroe",
+      "Team": "LAA",
+      "Position": "RF",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10011497,
+      "Name": "Jordan Walker",
+      "Team": "STL",
+      "Position": "RF",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000439,
+      "Name": "Nick Castellanos",
+      "Team": "PHI",
+      "Position": "RF",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008350,
+      "Name": "Stuart Fairchild",
+      "Team": "CIN",
+      "Position": "RF",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10012487,
+      "Name": "Henry Davis",
+      "Team": "PIT",
+      "Position": "RF",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008460,
+      "Name": "Drew Waters",
+      "Team": "KC",
+      "Position": "RF",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005235,
+      "Name": "Michael Conforto",
+      "Team": "SF",
+      "Position": "RF",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006835,
+      "Name": "Mike Tauchman",
+      "Team": "CHC",
+      "Position": "RF",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10013356,
+      "Name": "Oscar ColÃ¡s",
+      "Team": "CHW",
+      "Position": "RF",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001182,
+      "Name": "Jason Heyward",
+      "Team": "LAD",
+      "Position": "RF",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005910,
+      "Name": "Alex Verdugo",
+      "Team": "BOS",
+      "Position": "RF",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10012489,
+      "Name": "Sal Frelick",
+      "Team": "MIL",
+      "Position": "RF",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10012442,
+      "Name": "Will Brennan",
+      "Team": "CLE",
+      "Position": "RF",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005542,
+      "Name": "Jeff McNeil",
+      "Team": "NYM",
+      "Position": "RF",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007045,
+      "Name": "Josh Lowe",
+      "Team": "TB",
+      "Position": "RF",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10013281,
+      "Name": "Dominic Canzone",
+      "Team": "SEA",
+      "Position": "RF",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    }
+  ],
+  "lf": [
+    {
+      "PlayerID": 10007152,
+      "Name": "Yordan Alvarez",
+      "Team": "HOU",
+      "Position": "LF",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002093,
+      "Name": "Kyle Schwarber",
+      "Team": "PHI",
+      "Position": "LF",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10003149,
+      "Name": "Tyler O'Neill",
+      "Team": "STL",
+      "Position": "LF",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006794,
+      "Name": "Juan Soto",
+      "Team": "SD",
+      "Position": "LF",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010500,
+      "Name": "Cade Marlowe",
+      "Team": "SEA",
+      "Position": "LF",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010467,
+      "Name": "Matt Wallner",
+      "Team": "MIN",
+      "Position": "LF",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000780,
+      "Name": "Eddie Rosario",
+      "Team": "ATL",
+      "Position": "LF",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001185,
+      "Name": "Tommy Pham",
+      "Team": "ARI",
+      "Position": "LF",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006046,
+      "Name": "Ian Happ",
+      "Team": "CHC",
+      "Position": "LF",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009517,
+      "Name": "Jarren Duran",
+      "Team": "BOS",
+      "Position": "LF",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007224,
+      "Name": "Randy Arozarena",
+      "Team": "TB",
+      "Position": "LF",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007111,
+      "Name": "Bryan Reynolds",
+      "Team": "PIT",
+      "Position": "LF",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000646,
+      "Name": "Joc Pederson",
+      "Team": "SF",
+      "Position": "LF",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008374,
+      "Name": "MJ Melendez",
+      "Team": "KC",
+      "Position": "LF",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009155,
+      "Name": "Bryan De La Cruz",
+      "Team": "MIA",
+      "Position": "LF",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001271,
+      "Name": "Jurickson Profar",
+      "Team": "COL",
+      "Position": "LF",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007118,
+      "Name": "Blake Rutherford",
+      "Team": "WSH",
+      "Position": "LF",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000691,
+      "Name": "Christian Yelich",
+      "Team": "MIL",
+      "Position": "LF",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002013,
+      "Name": "Whit Merrifield",
+      "Team": "TOR",
+      "Position": "LF",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001181,
+      "Name": "Randal Grichuk",
+      "Team": "LAA",
+      "Position": "LF",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000040,
+      "Name": "David Peralta",
+      "Team": "LAD",
+      "Position": "LF",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007011,
+      "Name": "Akil Baddoo",
+      "Team": "DET",
+      "Position": "LF",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002001,
+      "Name": "Rafael Ortega",
+      "Team": "NYM",
+      "Position": "LF",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005530,
+      "Name": "Andrew Benintendi",
+      "Team": "CHW",
+      "Position": "LF",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010446,
+      "Name": "Spencer Steer",
+      "Team": "CIN",
+      "Position": "LF",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010180,
+      "Name": "Steven Kwan",
+      "Team": "CLE",
+      "Position": "LF",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007075,
+      "Name": "Austin Hays",
+      "Team": "BAL",
+      "Position": "LF",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006200,
+      "Name": "Tony Kemp",
+      "Team": "OAK",
+      "Position": "LF",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002126,
+      "Name": "Travis Jankowski",
+      "Team": "TEX",
+      "Position": "LF",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005926,
+      "Name": "Billy McKinney",
+      "Team": "NYY",
+      "Position": "LF",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    }
+  ],
+  "ss": [
+    {
+      "PlayerID": 10001911,
+      "Name": "Francisco Lindor",
+      "Team": "NYM",
+      "Position": "SS",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006826,
+      "Name": "Dansby Swanson",
+      "Team": "CHC",
+      "Position": "SS",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001979,
+      "Name": "Corey Seager",
+      "Team": "TEX",
+      "Position": "SS",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001896,
+      "Name": "Trevor Story",
+      "Team": "BOS",
+      "Position": "SS",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010332,
+      "Name": "Bobby Witt Jr.",
+      "Team": "KC",
+      "Position": "SS",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010354,
+      "Name": "Gunnar Henderson",
+      "Team": "BAL",
+      "Position": "SS",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005433,
+      "Name": "Willy Adames",
+      "Team": "MIL",
+      "Position": "SS",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006886,
+      "Name": "Andrew Velazquez",
+      "Team": "LAA",
+      "Position": "SS",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009354,
+      "Name": "Jeremy PeÃ±a",
+      "Team": "HOU",
+      "Position": "SS",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10013284,
+      "Name": "Ezequiel Tovar",
+      "Team": "COL",
+      "Position": "SS",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010534,
+      "Name": "Liover Peguero",
+      "Team": "PIT",
+      "Position": "SS",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008749,
+      "Name": "Tommy Edman",
+      "Team": "STL",
+      "Position": "SS",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010465,
+      "Name": "Anthony Volpe",
+      "Team": "NYY",
+      "Position": "SS",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001918,
+      "Name": "Carlos Correa",
+      "Team": "MIN",
+      "Position": "SS",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002094,
+      "Name": "Trea Turner",
+      "Team": "PHI",
+      "Position": "SS",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000029,
+      "Name": "Nick Ahmed",
+      "Team": "ARI",
+      "Position": "SS",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010333,
+      "Name": "CJ Abrams",
+      "Team": "WSH",
+      "Position": "SS",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008086,
+      "Name": "Zach McKinstry",
+      "Team": "DET",
+      "Position": "SS",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001264,
+      "Name": "Elvis Andrus",
+      "Team": "CHW",
+      "Position": "SS",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008687,
+      "Name": "Osleivis Basabe",
+      "Team": "TB",
+      "Position": "SS",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000165,
+      "Name": "Xander Bogaerts",
+      "Team": "SD",
+      "Position": "SS",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007175,
+      "Name": "Gabriel Arias",
+      "Team": "CLE",
+      "Position": "SS",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005377,
+      "Name": "Orlando Arcia",
+      "Team": "ATL",
+      "Position": "SS",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005741,
+      "Name": "Paul DeJong",
+      "Team": "TOR",
+      "Position": "SS",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10012721,
+      "Name": "Elly De La Cruz",
+      "Team": "CIN",
+      "Position": "SS",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001130,
+      "Name": "Brandon Crawford",
+      "Team": "SF",
+      "Position": "SS",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001946,
+      "Name": "Joey Wendle",
+      "Team": "MIA",
+      "Position": "SS",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000685,
+      "Name": "Miguel Rojas",
+      "Team": "LAD",
+      "Position": "SS",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008379,
+      "Name": "Nick Allen",
+      "Team": "OAK",
+      "Position": "SS",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007284,
+      "Name": "Dylan Moore",
+      "Team": "SEA",
+      "Position": "SS",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    }
+  ],
+  "firstBase": [
+    {
+      "PlayerID": 10007009,
+      "Name": "Pete Alonso",
+      "Team": "NYM",
+      "Position": "1B",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10003268,
+      "Name": "Christian Walker",
+      "Team": "ARI",
+      "Position": "1B",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006682,
+      "Name": "Seth Brown",
+      "Team": "OAK",
+      "Position": "1B",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000312,
+      "Name": "Joey Votto",
+      "Team": "CIN",
+      "Position": "1B",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001966,
+      "Name": "Joey Gallo",
+      "Team": "MIN",
+      "Position": "1B",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001961,
+      "Name": "Matt Olson",
+      "Team": "ATL",
+      "Position": "1B",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000077,
+      "Name": "Freddie Freeman",
+      "Team": "LAD",
+      "Position": "1B",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005519,
+      "Name": "Jake Bauers",
+      "Team": "NYY",
+      "Position": "1B",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005299,
+      "Name": "Josh Bell",
+      "Team": "MIA",
+      "Position": "1B",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10011494,
+      "Name": "Spencer Torkelson",
+      "Team": "DET",
+      "Position": "1B",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009275,
+      "Name": "Triston Casas",
+      "Team": "BOS",
+      "Position": "1B",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000601,
+      "Name": "C.J. Cron",
+      "Team": "LAA",
+      "Position": "1B",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000490,
+      "Name": "Jon Singleton",
+      "Team": "HOU",
+      "Position": "1B",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000031,
+      "Name": "Paul Goldschmidt",
+      "Team": "STL",
+      "Position": "1B",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008989,
+      "Name": "Nathaniel Lowe",
+      "Team": "TEX",
+      "Position": "1B",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010464,
+      "Name": "Andrew Vaughn",
+      "Team": "CHW",
+      "Position": "1B",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007416,
+      "Name": "Jake Cronenworth",
+      "Team": "SD",
+      "Position": "1B",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006521,
+      "Name": "Ryan O'Hearn",
+      "Team": "BAL",
+      "Position": "1B",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007303,
+      "Name": "Oscar Gonzalez",
+      "Team": "CLE",
+      "Position": "1B",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008642,
+      "Name": "Elehuris Montero",
+      "Team": "COL",
+      "Position": "1B",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007501,
+      "Name": "Vladimir Guerrero Jr.",
+      "Team": "TOR",
+      "Position": "1B",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000353,
+      "Name": "Carlos Santana",
+      "Team": "MIL",
+      "Position": "1B",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006284,
+      "Name": "Ty France",
+      "Team": "SEA",
+      "Position": "1B",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005684,
+      "Name": "Yandy DÃ­az",
+      "Team": "TB",
+      "Position": "1B",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006157,
+      "Name": "Connor Joe",
+      "Team": "PIT",
+      "Position": "1B",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009271,
+      "Name": "Alec Bohm",
+      "Team": "PHI",
+      "Position": "1B",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005308,
+      "Name": "Jeimer Candelario",
+      "Team": "CHC",
+      "Position": "1B",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006775,
+      "Name": "Dominic Smith",
+      "Team": "WSH",
+      "Position": "1B",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006977,
+      "Name": "LaMonte Wade Jr.",
+      "Team": "SF",
+      "Position": "1B",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008005,
+      "Name": "Matt Beaty",
+      "Team": "KC",
+      "Position": "1B",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    }
+  ],
+  "secondBase": [
+    {
+      "PlayerID": 10000176,
+      "Name": "Mookie Betts",
+      "Team": "LAD",
+      "Position": "2B",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005406,
+      "Name": "Gleyber Torres",
+      "Team": "NYY",
+      "Position": "2B",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000908,
+      "Name": "Marcus Semien",
+      "Team": "TEX",
+      "Position": "2B",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009287,
+      "Name": "Nolan Gorman",
+      "Team": "STL",
+      "Position": "2B",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000030,
+      "Name": "Brandon Drury",
+      "Team": "LAA",
+      "Position": "2B",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001087,
+      "Name": "Ketel Marte",
+      "Team": "ARI",
+      "Position": "2B",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006272,
+      "Name": "Brandon Lowe",
+      "Team": "TB",
+      "Position": "2B",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000485,
+      "Name": "Jose Altuve",
+      "Team": "HOU",
+      "Position": "2B",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010682,
+      "Name": "Edouard Julien",
+      "Team": "MIN",
+      "Position": "2B",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007151,
+      "Name": "Luis UrÃ­as",
+      "Team": "BOS",
+      "Position": "2B",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005487,
+      "Name": "Jonathan AraÃºz",
+      "Team": "NYM",
+      "Position": "2B",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005878,
+      "Name": "AndrÃ©s GimÃ©nez",
+      "Team": "CLE",
+      "Position": "2B",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007322,
+      "Name": "Thairo Estrada",
+      "Team": "SF",
+      "Position": "2B",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10012542,
+      "Name": "Zack Gelof",
+      "Team": "OAK",
+      "Position": "2B",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007812,
+      "Name": "Ha-Seong Kim",
+      "Team": "SD",
+      "Position": "2B",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010411,
+      "Name": "Michael Massey",
+      "Team": "KC",
+      "Position": "2B",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009296,
+      "Name": "Nico Hoerner",
+      "Team": "CHC",
+      "Position": "2B",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008975,
+      "Name": "Zach Remillard",
+      "Team": "CHW",
+      "Position": "2B",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10013566,
+      "Name": "Davis Schneider",
+      "Team": "TOR",
+      "Position": "2B",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10013681,
+      "Name": "Jake Alu",
+      "Team": "WSH",
+      "Position": "2B",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009104,
+      "Name": "Josh Rojas",
+      "Team": "SEA",
+      "Position": "2B",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005834,
+      "Name": "Adam Frazier",
+      "Team": "BAL",
+      "Position": "2B",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010448,
+      "Name": "Bryson Stott",
+      "Team": "PHI",
+      "Position": "2B",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005493,
+      "Name": "Luis Arraez",
+      "Team": "MIA",
+      "Position": "2B",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009007,
+      "Name": "Alan Trejo",
+      "Team": "COL",
+      "Position": "2B",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009348,
+      "Name": "Matt McLain",
+      "Team": "CIN",
+      "Position": "2B",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010462,
+      "Name": "Jared Triolo",
+      "Team": "PIT",
+      "Position": "2B",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006136,
+      "Name": "Andy IbÃ¡Ã±ez",
+      "Team": "DET",
+      "Position": "2B",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009385,
+      "Name": "Brice Turang",
+      "Team": "MIL",
+      "Position": "2B",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007427,
+      "Name": "Nicky Lopez",
+      "Team": "ATL",
+      "Position": "2B",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    }
+  ],
+  "thirdBase": [
+    {
+      "PlayerID": 10006622,
+      "Name": "Austin Riley",
+      "Team": "ATL",
+      "Position": "3B",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000129,
+      "Name": "Manny Machado",
+      "Team": "SD",
+      "Position": "3B",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000311,
+      "Name": "Eugenio SuÃ¡rez",
+      "Team": "SEA",
+      "Position": "3B",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007973,
+      "Name": "Luis Rengifo",
+      "Team": "LAA",
+      "Position": "3B",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001955,
+      "Name": "Max Muncy",
+      "Team": "LAD",
+      "Position": "3B",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000774,
+      "Name": "Jorge Polanco",
+      "Team": "MIN",
+      "Position": "3B",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008336,
+      "Name": "Jake Burger",
+      "Team": "MIA",
+      "Position": "3B",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007465,
+      "Name": "Isaac Paredes",
+      "Team": "TB",
+      "Position": "3B",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000352,
+      "Name": "JosÃ© RamÃ­rez",
+      "Team": "CLE",
+      "Position": "3B",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008467,
+      "Name": "Buddy Kennedy",
+      "Team": "ARI",
+      "Position": "3B",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006345,
+      "Name": "Ryan McMahon",
+      "Team": "COL",
+      "Position": "3B",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006462,
+      "Name": "YoÃ¡n Moncada",
+      "Team": "CHW",
+      "Position": "3B",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005589,
+      "Name": "Alex Bregman",
+      "Team": "HOU",
+      "Position": "3B",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000393,
+      "Name": "Nolan Arenado",
+      "Team": "STL",
+      "Position": "3B",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005751,
+      "Name": "Rafael Devers",
+      "Team": "BOS",
+      "Position": "3B",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006792,
+      "Name": "Edmundo Sosa",
+      "Team": "PHI",
+      "Position": "3B",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009878,
+      "Name": "Matt Vierling",
+      "Team": "DET",
+      "Position": "3B",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005661,
+      "Name": "Matt Chapman",
+      "Team": "TOR",
+      "Position": "3B",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009669,
+      "Name": "Jordan Diaz",
+      "Team": "OAK",
+      "Position": "3B",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005581,
+      "Name": "Ildemaro Vargas",
+      "Team": "WSH",
+      "Position": "3B",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10013287,
+      "Name": "Maikel Garcia",
+      "Team": "KC",
+      "Position": "3B",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006053,
+      "Name": "Ke'Bryan Hayes",
+      "Team": "PIT",
+      "Position": "3B",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007554,
+      "Name": "Isiah Kiner-Falefa",
+      "Team": "NYY",
+      "Position": "3B",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006512,
+      "Name": "Kevin Newman",
+      "Team": "CIN",
+      "Position": "3B",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005722,
+      "Name": "J.D. Davis",
+      "Team": "SF",
+      "Position": "3B",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008933,
+      "Name": "Danny Mendick",
+      "Team": "NYM",
+      "Position": "3B",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009032,
+      "Name": "RamÃ³n UrÃ­as",
+      "Team": "BAL",
+      "Position": "3B",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008986,
+      "Name": "Andruw Monasterio",
+      "Team": "MIL",
+      "Position": "3B",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009344,
+      "Name": "Nick Madrigal",
+      "Team": "CHC",
+      "Position": "3B",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010443,
+      "Name": "Josh H. Smith",
+      "Team": "TEX",
+      "Position": "3B",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    }
+  ],
+  "catcher": [
+    {
+      "PlayerID": 10009359,
+      "Name": "Cal Raleigh",
+      "Team": "SEA",
+      "Position": "C",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009441,
+      "Name": "Francisco Alvarez",
+      "Team": "NYM",
+      "Position": "C",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000675,
+      "Name": "J.T. Realmuto",
+      "Team": "PHI",
+      "Position": "C",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007535,
+      "Name": "Danny Jansen",
+      "Team": "TOR",
+      "Position": "C",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000525,
+      "Name": "Salvador Perez",
+      "Team": "KC",
+      "Position": "C",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007090,
+      "Name": "Sean Murphy",
+      "Team": "ATL",
+      "Position": "C",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007125,
+      "Name": "Will Smith",
+      "Team": "LAD",
+      "Position": "C",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007612,
+      "Name": "Chad Wallach",
+      "Team": "LAA",
+      "Position": "C",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010038,
+      "Name": "Bo Naylor",
+      "Team": "CLE",
+      "Position": "C",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010331,
+      "Name": "Adley Rutschman",
+      "Team": "BAL",
+      "Position": "C",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005307,
+      "Name": "Willson Contreras",
+      "Team": "STL",
+      "Position": "C",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007153,
+      "Name": "Jacob Stallings",
+      "Team": "MIA",
+      "Position": "C",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001865,
+      "Name": "Kyle Higashioka",
+      "Team": "NYY",
+      "Position": "C",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006058,
+      "Name": "Jonah Heim",
+      "Team": "TEX",
+      "Position": "C",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000719,
+      "Name": "MartÃ­n Maldonado",
+      "Team": "HOU",
+      "Position": "C",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010367,
+      "Name": "Shea Langeliers",
+      "Team": "OAK",
+      "Position": "C",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008579,
+      "Name": "William Contreras",
+      "Team": "MIL",
+      "Position": "C",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007310,
+      "Name": "Keibert Ruiz",
+      "Team": "WSH",
+      "Position": "C",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008463,
+      "Name": "Connor Wong",
+      "Team": "BOS",
+      "Position": "C",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10003204,
+      "Name": "Elias DÃ­az",
+      "Team": "COL",
+      "Position": "C",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000072,
+      "Name": "Christian Bethancourt",
+      "Team": "TB",
+      "Position": "C",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000343,
+      "Name": "Yan Gomes",
+      "Team": "CHC",
+      "Position": "C",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009629,
+      "Name": "Gabriel Moreno",
+      "Team": "ARI",
+      "Position": "C",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000633,
+      "Name": "Yasmani Grandal",
+      "Team": "CHW",
+      "Position": "C",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006804,
+      "Name": "Tyler Stephenson",
+      "Team": "CIN",
+      "Position": "C",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000164,
+      "Name": "Christian VÃ¡zquez",
+      "Team": "MIN",
+      "Position": "C",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10011430,
+      "Name": "Patrick Bailey",
+      "Team": "SF",
+      "Position": "C",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10014140,
+      "Name": "Endy Rodriguez",
+      "Team": "PIT",
+      "Position": "C",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007115,
+      "Name": "Jake Rogers",
+      "Team": "DET",
+      "Position": "C",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000857,
+      "Name": "Gary SÃ¡nchez",
+      "Team": "SD",
+      "Position": "C",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    }
+  ],
+  "startingPitcher": [
+    {
+      "PlayerID": 10011451,
+      "Name": "Bobby Miller",
+      "Team": "LAD",
+      "Position": "SP",
+      "Opponent": "MIL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010455,
+      "Name": "Graham Ashcraft",
+      "Team": "CIN",
+      "Position": "SP",
+      "Opponent": "CLE",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009612,
+      "Name": "Yusei Kikuchi",
+      "Team": "TOR",
+      "Position": "SP",
+      "Opponent": "PHI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007228,
+      "Name": "Bailey Falter",
+      "Team": "PIT",
+      "Position": "SP",
+      "Opponent": "NYM",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000381,
+      "Name": "Jordan Lyles",
+      "Team": "KC",
+      "Position": "SP",
+      "Opponent": "SEA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10003212,
+      "Name": "Kyle Hendricks",
+      "Team": "CHC",
+      "Position": "SP",
+      "Opponent": "CHW",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10011515,
+      "Name": "Logan Allen",
+      "Team": "CLE",
+      "Position": "SP",
+      "Opponent": "CIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008328,
+      "Name": "Zack Littell",
+      "Team": "TB",
+      "Position": "SP",
+      "Opponent": "SF",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000807,
+      "Name": "Zack Wheeler",
+      "Team": "PHI",
+      "Position": "SP",
+      "Opponent": "TOR",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10011440,
+      "Name": "Emerson Hancock",
+      "Team": "SEA",
+      "Position": "SP",
+      "Opponent": "KC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002056,
+      "Name": "Joe Mantiply",
+      "Team": "ARI",
+      "Position": "SP",
+      "Opponent": "COL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007266,
+      "Name": "Jakob Junis",
+      "Team": "SF",
+      "Position": "SP",
+      "Opponent": "TB",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006864,
+      "Name": "Touki Toussaint",
+      "Team": "CHW",
+      "Position": "SP",
+      "Opponent": "CHC",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008349,
+      "Name": "Alex Faedo",
+      "Team": "DET",
+      "Position": "SP",
+      "Opponent": "MIN",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10008421,
+      "Name": "David Peterson",
+      "Team": "NYM",
+      "Position": "SP",
+      "Opponent": "PIT",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005822,
+      "Name": "Jack Flaherty",
+      "Team": "BAL",
+      "Position": "SP",
+      "Opponent": "SD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10010317,
+      "Name": "Bailey Ober",
+      "Team": "MIN",
+      "Position": "SP",
+      "Opponent": "DET",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005879,
+      "Name": "Lucas Giolito",
+      "Team": "LAA",
+      "Position": "SP",
+      "Opponent": "TEX",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10000282,
+      "Name": "Johnny Cueto",
+      "Team": "MIA",
+      "Position": "SP",
+      "Opponent": "HOU",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002046,
+      "Name": "Ty Blach",
+      "Team": "COL",
+      "Position": "SP",
+      "Opponent": "ARI",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009765,
+      "Name": "Spenser Watkins",
+      "Team": "OAK",
+      "Position": "SP",
+      "Opponent": "STL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006571,
+      "Name": "Nick Pivetta",
+      "Team": "BOS",
+      "Position": "SP",
+      "Opponent": "WSH",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10011485,
+      "Name": "Bryce Elder",
+      "Team": "ATL",
+      "Position": "SP",
+      "Opponent": "NYY",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10006466,
+      "Name": "Jordan Montgomery",
+      "Team": "TEX",
+      "Position": "SP",
+      "Opponent": "LAA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10002077,
+      "Name": "Luis Severino",
+      "Team": "NYY",
+      "Position": "SP",
+      "Opponent": "ATL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007231,
+      "Name": "Cristian Javier",
+      "Team": "HOU",
+      "Position": "SP",
+      "Opponent": "MIA",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10007033,
+      "Name": "Dakota Hudson",
+      "Team": "STL",
+      "Position": "SP",
+      "Opponent": "OAK",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10005264,
+      "Name": "Adrian Houser",
+      "Team": "MIL",
+      "Position": "SP",
+      "Opponent": "LAD",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10001161,
+      "Name": "Michael Wacha",
+      "Team": "SD",
+      "Position": "SP",
+      "Opponent": "BAL",
+      "FantasyPoints": 0
+    },
+    {
+      "PlayerID": 10009288,
+      "Name": "Josiah Gray",
+      "Team": "WSH",
+      "Position": "SP",
+      "Opponent": "BOS",
+      "FantasyPoints": 0
+    }
+  ]
+}
