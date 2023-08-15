@@ -1,29 +1,82 @@
 <div class="row d-flex justify-content-center mt-4">
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
+    <p>It's time to compete! Choose your team wisely!</p>
   </div>
 </div>
 
 <div class="row mt-4 d-flex justify-content-center">
   <div class="col-md-6">
-    <h3>Create a New Selection:</h3>
+    <h3>Create your custom team:</h3>
 
     <form class="form new-post-form">
       <div class="form-group">
-        <label for="teamName">Select Team:</label>
+        <label for="teamName">Type your Team Name:</label>
         <input class="form-input" type="text" id="teamName" name="teamName" />
       </div>
       <div class="form-group">
-        <label for="playerName">Player Name:</label>
-        <textarea class="form-input" id="playerName" name="playerName"></textarea>
+        <h3>Pick 9 Position Players:</h3>
+        <br />
+        <label for="firstBase">First Base:</label>
+        <br />
+        <select value="firstBase" name="firstBase" id="firstBase">
+          <option value="firstBase" id="firstBase">---</option>
+        </select>
+        <br>
+        <label for="secondBase">Second Base:</label>
+        <br />
+        <select value="secondBase" name="secondBase" id="secondBase">
+          <option value="secondBase" id="secondBase">---</option>
+        </select>
+        <br>
+        <label for="thirdBase">Third Base:</label>
+        <br />
+        <select value="thirdBase" name="thirdBase" id="thirdBase">
+          <option value="thirdBase" id="thirdBase">---</option>
+        </select>
+        <br>
+        <label for="shortStop">Short Stop:</label>
+        <br />
+        <select value="shortStop" name="shortStop" id="shortStop">
+          <option value="shortStop" id="shortStop">---</option>
+        </select>
+        <br>
+        <label for="catcher">Catcher:</label>
+        <br />
+        <select value="catcher" name="catcher" id="catcher">
+          <option value="catcher" id="catcher">---</option>
+        </select>
+        <br>
+        <label for="leftField">Left Field:</label>
+        <br />
+        <select value="leftField" name="leftField" id="leftField">
+          <option value="leftField" id="leftField">---</option>
+        </select>
+        <br>
+        <label for="centerField">Center Field:</label>
+        <br />
+        <select value="centerField" name="centerField" id="centerField">
+          <option value="centerField" id="centerField">---</option>
+        </select>
+        <br>
+        <label for="rightField">Right Field:</label>
+        <br />
+        <select value="rightField" name="rightField" id="rightField">
+          <option value="rightField" id="rightField">---</option>
+        </select>
+        <br>
+        <label for="dh">Designated Hitter:</label>
+        <br />
+        <select value="dh" name="dh" id="dh">
+          <option value="dh" id="dh">---</option>
+        </select>
       </div>
       <div class="form-group">
-        <label for="pitcherName">Pitcher Name:</label>
-        <textarea class="form-input" id="pitcherName" name="pitcherName"></textarea>
-      </div>
-      <div class="form-group">
-        <label for="winLose">Win or Lose:</label>
-        <textarea class="form-input" id="winLose" name="winLose"></textarea>
+        <label for="pitcherName">Pick your Starting Pitcher:</label>
+        <br />
+        <select value="pitcherName" name="pitcherName" id="pitcherName">
+          <option value="pitcherName" id="pitcherName">---</option>
+        </select>
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Create</button>
@@ -32,20 +85,23 @@
   </div>
 
   {{#if posts.length}}
-  <div class="col-md-6 post-list">
-    <h3>Current posts:</h3>
+    <div class="col-md-6 post-list">
+      <h3>Current posts:</h3>
 
-    {{#each posts as |post|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/post/{{post.id}}">{{post.title}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
-      </div>
+      {{#each posts as |post|}}
+        <div class="row mb-2">
+          <div class="col-md-8">
+            <h4><a href="/post/{{post.id}}">{{post.title}}</a></h4>
+          </div>
+          <div class="col-md-4">
+            <button
+              class="btn btn-sm btn-danger"
+              data-id="{{post.id}}"
+            >DELETE</button>
+          </div>
+        </div>
+      {{/each}}
     </div>
-    {{/each}}
-  </div>
   {{/if}}
 </div>
 

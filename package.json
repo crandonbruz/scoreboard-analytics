@@ -1,5 +1,5 @@
 {
-"name": "scoreboard-analysis",
+  "name": "scoreboard-analytics",
   "version": "1.0.0",
   "description": "Here is an application showing sports highlights in a database.",
   "main": "server.js",
