@@ -64,5 +64,8 @@ document
   .addEventListener('submit', newFormHandler);
 
 // document
+  // .querySelector('.post-list')
+  // .addEventListener('click', delButtonHandler);
+// document
 //   .querySelector('.btn btn-primary')
 //   .addEventListener('click', delButtonHandler);
