@@ -1,15 +1,32 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const title = document.querySelector('#post-title').value.trim();
-  const content = document.querySelector('#post-content').value.trim();
+  
+  const teamName  = document.querySelector('#teamName').value.trim();
+  const pitcherName  = document.querySelector('#pitcherName').value.trim();
+  
+  const firstBase  = document.querySelector('#firstBase').value.trim();
+  const secondBase  = document.querySelector('#secondBase').value.trim();
+  
+  const thirdBase  = document.querySelector('#thirdBase').value.trim();
+  const shortStop  = document.querySelector('#shortStop').value.trim();
+  
+  const catcher  = document.querySelector('#catcher').value.trim();
+  const leftField  = document.querySelector('#leftField').value.trim();
+  
+  const centerField  = document.querySelector('#centerField').value.trim();
+  const rightField  = document.querySelector('#rightField').value.trim();
+  const dh  = document.querySelector('#dh').value.trim();
+  
+  
 
-  if (title && content) {
+
+  if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh) {
     const response = await fetch(`/api/posts`, {
       method: 'POST',
-      body: JSON.stringify({ title, content }),
+      body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
       headers: {
-        'Content-Type': 'application/json',
+        'teamName -Type': 'application/json',
       },
     });
 
