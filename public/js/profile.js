@@ -24,7 +24,7 @@ const newFormHandler = async (event) => {
 console.log({teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  })
   if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh ) {
     console.log('pitcherName:', pitcherName);
-    const response = await fetch(`/api/selection`, {
+    const responseOne = await fetch(`/api/selection`, {
       method: 'POST',
       body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
       headers: {
@@ -32,9 +32,20 @@ console.log({teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop,
       },
 
     });
+    const responseTwo = await fetch(`/api/all-posts`, {
+      method: 'POST',
+      body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
 
+    });
+    
 
-    if (response.ok) {
+    if (responseOne.ok && responseTwo.ok ) {
+      // const queryParams = new URLSearchParams(formData).toString();
+      // const redirectUrl = `/api/all-posts?${queryParams}`;
+      // document.location.replace('/dashboard')
       document.location.replace('/profile');
     } else {
       alert('Failed to create post');
