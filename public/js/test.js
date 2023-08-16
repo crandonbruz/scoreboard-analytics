@@ -63,7 +63,7 @@ fetchData().then(data => {
     const thirdBase = []
     const catcher = []
     const startingPitcher = []
-    const dh = []
+
 
 
     // const
