@@ -15,6 +15,7 @@ Our users can make the team and store their team in the database and compare the
 ISC (http://opensource.org/licenses/ISC)
 ## How to Contribute
 Cashapp: crandonbruz
+Venmo: Cristofferb7
 ## Tests
 Test the page and find out!
 ## Questions
