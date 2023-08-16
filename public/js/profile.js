@@ -3,37 +3,40 @@ const newFormHandler = async (event) => {
 
   console.log('Form submit button clicked');
 
-  
-  const teamName  = document.querySelector('#teamName').value.trim();
-  const pitcherName  = document.querySelector('#pitcherName').value.trim();
-  
-  const firstBase  = document.querySelector('#firstBase').value.trim();
-  const secondBase  = document.querySelector('#secondBase').value.trim();
-  
-  const thirdBase  = document.querySelector('#thirdBase').value.trim();
-  const shortStop  = document.querySelector('#shortStop').value.trim();
-  
-  const catcher  = document.querySelector('#catcher').value.trim();
-  const leftField  = document.querySelector('#leftField').value.trim();
-  
-  const centerField  = document.querySelector('#centerField').value.trim();
-  const rightField  = document.querySelector('#rightField').value.trim();
-  const dh  = document.querySelector('#dh').value.trim();
-  
+
+  const teamName = document.querySelector('#teamName').value.trim();
+  const pitcherName = document.querySelector('#pitcherName').value.trim();
+
+  const firstBase = document.querySelector('#firstBase').value.trim();
+  const secondBase = document.querySelector('#secondBase').value.trim();
+
+  const thirdBase = document.querySelector('#thirdBase').value.trim();
+  const shortStop = document.querySelector('#shortStop').value.trim();
+
+  const catcher = document.querySelector('#catcher').value.trim();
+  const leftField = document.querySelector('#leftField').value.trim();
+
+  const centerField = document.querySelector('#centerField').value.trim();
+  const rightField = document.querySelector('#rightField').value.trim();
+  const dh = document.querySelector('#dh').value.trim();
+
   console.log('Team Name:', teamName);
   // ... other fields ...
 
-  if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh) {
+  if (teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh) {
+    console.log(firstBase);
     console.log('pitcherName:', pitcherName);
+    let allFields = { teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh }
+    console.log(allFields)
     const response = await fetch(`/api/selection`, {
       method: 'POST',
-      body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
+      body: JSON.stringify(allFields),
       headers: {
-        'teamName-Type': 'application/json',
+        'Content-Type': 'application/json',
       },
-      
+
     });
-    
+
 
     if (response.ok) {
       document.location.replace('/profile');
