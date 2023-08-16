@@ -18,18 +18,18 @@ const newFormHandler = async (event) => {
   
   const centerField  = document.querySelector('#centerField').value.trim();
   const rightField  = document.querySelector('#rightField').value.trim();
-  const dh  = document.querySelector('#dh').value.trim();
+  // const dh  = document.querySelector('#dh').value.trim();
   
   console.log('Team Name:', teamName);
   // ... other fields ...
-
-  if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh) {
+console.log({teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField  })
+  if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField ) {
     console.log('pitcherName:', pitcherName);
     const response = await fetch(`/api/selection`, {
       method: 'POST',
-      body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
+      body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField  }),
       headers: {
-        'teamName-Type': 'application/json',
+        'Content-Type': 'application/json',
       },
       
     });
@@ -52,7 +52,7 @@ const delButtonHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/all-posts');
     } else {
       alert('Failed to delete post');
     }

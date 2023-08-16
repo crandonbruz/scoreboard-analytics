@@ -1,0 +1,22 @@
+{{#each selections as |selection|}}
+        <div class="row mb-2 border-bottom pb-2">
+          <div class="col-md-8">
+            <h4><a href="/selection/{{selection.id}}">{{selection.teamName}}</a></h4>
+          </div>
+          <div class="col-md-4">
+            <h1>{{selection.firstBase}}</h1>
+             <h1>{{selection.secondBase}}</h1>
+              <h1>{{selection.thirdBase}}</h1>
+               <h1>{{selection.shortStop}}</h1>
+                <h1>{{selection.leftField}}</h1>
+                 <h1>{{selection.centerField}}</h1>
+                  <h1>{{selection.rightField}}</h1>
+                   <h1>{{selection.catcher}}</h1>
+                    <h1>{{selection.pitcherName}}</h1>
+            {{!-- <button
+              class="btn btn-sm btn-danger"
+              data-id="{{selection.id}}"
+            >DELETE</button> --}}
+          </div>
+        </div>
+      {{/each}}
