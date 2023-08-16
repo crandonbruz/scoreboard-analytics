@@ -3,6 +3,7 @@ const { Selection } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
+  
   console.log(req.body);
   console.log(req.session.user_id)
 
@@ -36,7 +37,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     res.status(200).json(SelectionData);
   } catch (err) {
     res.status(500).json(err);
-  }
+    }
 });
 
 module.exports = router;
