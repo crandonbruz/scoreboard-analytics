@@ -64,7 +64,7 @@ const newFormHandler = async (event) => {
       },
     });
     if (responseOne.ok) {
-      document.location.replace("/profile");
+      document.location.replace("/all-posts");
     } else {
       alert("Failed to create post");
     }
@@ -88,11 +88,11 @@ const delButtonHandler = async (event) => {
 };
 
 document
-  .querySelector(".new-selection-form")
+  .querySelector(".new-post-form")
   .addEventListener("submit", newFormHandler);
 
 document
-.querySelector('.selection-list')
+.querySelector('.post-list')
 .addEventListener('click', delButtonHandler);
 // document
 //   .querySelector('.btn btn-primary')
