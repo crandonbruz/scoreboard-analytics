@@ -1,5 +1,9 @@
 {{#each selections as |selection|}}
-  <div id="cards" class="card text-white bg-transparent mb-3" style="max-width: 18rem;">
+  <div
+    id="cards"
+    class="card text-white bg-transparent mb-3"
+    style="max-width: 18rem;"
+  >
     <div id="newteam" class="card-header"><a
         href="/selection/{{selection.id}}"
       >{{selection.teamName}}</a></div>
@@ -14,6 +18,12 @@
       <h1>{{selection.catcher}}</h1>
       <h1>{{selection.dh}}</h1>
       <h1>{{selection.pitcherName}}</h1>
+    </div>
+    <div class="col-md-4">
+      <button
+        class="btn btn-sm btn-danger"
+        data-id="{{selection.id}}"
+      >DELETE</button>
     </div>
   </div>
 {{/each}}

@@ -34,25 +34,23 @@ fetchData().then((data) => {
       Team: data[i].Team,
       Position: data[i].Position,
 
-            // Add More things to the card
-        }
-        if (data[i].Started === 1) {
-            activePlayers.push(player)
-        }
+      // Add More things to the card
+    };
+    if (data[i].Started === 1) {
+      activePlayers.push(player);
     }
-    console.log(activePlayers.length)
-    const dh = []
-    const cf = []
-    const rf = []
-    const lf = []
-    const ss = []
-    const firstBase = []
-    const secondBase = []
-    const thirdBase = []
-    const catcher = []
-    const startingPitcher = []
-
-
+  }
+  console.log(activePlayers.length);
+  const dh = [];
+  const cf = [];
+  const rf = [];
+  const lf = [];
+  const ss = [];
+  const firstBase = [];
+  const secondBase = [];
+  const thirdBase = [];
+  const catcher = [];
+  const startingPitcher = [];
 
   // const
   // make const for every position
