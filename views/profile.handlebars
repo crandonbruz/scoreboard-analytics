@@ -1,109 +1,171 @@
-<div class="row d-flex justify-content-center mt-4">
-  <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
-    <p>It's time to compete! Choose your team wisely!</p>
-  </div>
-</div>
-
-<div class="row mt-4 d-flex justify-content-center">
-  <div class="col-md-6">
-    <h3>Create your custom team:</h3>
-
-    <form class="form new-post-form">
-      <div class="form-group">
-        <label for="teamName">Type your Team Name:</label>
-        <input class="form-input" type="text" id="teamName" name="teamName" />
-      </div>
-      <div class="form-group">
-        <h3>Pick 9 Position Players:</h3>
-        <br />
-        <label for="firstBase">First Base:</label>
-        <br />
-        <select value="firstBase" name="firstBase" id="firstBase">
-          <option value="firstBase" id="firstBase">First Base:</option>
-        </select>
-        <br>
-        <label for="secondBase">Second Base:</label>
-        <br />
-        <select value="secondBase" name="secondBase" id="secondBase">
-          <option value="secondBase" id="secondBase">Second Base:</option>
-        </select>
-        <br>
-        <label for="thirdBase">Third Base:</label>
-        <br />
-        <select value="thirdBase" name="thirdBase" id="thirdBase">
-          <option value="thirdBase" id="thirdBase">Third Base:</option>
-        </select>
-        <br>
-        <label for="shortStop">ShortStop:</label>
-        <br />
-        <select value="shortStop" name="shortStop" id="shortStop">
-          <option value="shortStop" id="shortStop">ShortStop:</option>
-        </select>
-        <br>
-        <label for="catcher">Catcher:</label>
-        <br />
-        <select value="catcher" name="catcher" id="catcher">
-          <option value="catcher" id="catcher">Catcher:</option>
-        </select>
-        <br>
-        <label for="leftField">Left Field:</label>
-        <br />
-        <select value="leftField" name="leftField" id="leftField">
-          <option value="leftField" id="leftField">Left Field:</option>
-        </select>
-        <br>
-        <label for="centerField">Center Field:</label>
-        <br />
-        <select value="centerField" name="centerField" id="centerField">
-          <option value="centerField" id="centerField">Center Field:</option>
-        </select>
-        <br>
-        <label for="rightField">Right Field:</label>
-        <br />
-        <select value="rightField" name="rightField" id="rightField">
-          <option value="rightField" id="rightField">Right Field:</option>
-        </select>
-        <br>
-        <label for="dh">Designated Hitter:</label>
-        <br />
-        <select value="dh" name="dh" id="dh">
-          <option value="dh" id="dh">DH:</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="pitcherName">Pick your Starting Pitcher:</label>
-        <br />
-        <select value="pitcherName" name="pitcherName" id="pitcherName">
-          <option value="pitcherName" id="pitcherName">Starting Pitcher:</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
-      </div>
-    </form>
-  </div>
-
-  {{#if posts.length}}
-    <div class="col-md-6 post-list">
-      <h3>Current posts:</h3>
-
-      {{#each posts as |post|}}
-        <div class="row mb-2">
-          <div class="col-md-8">
-            <h4><a href="/post/{{post.id}}">{{post.title}}</a></h4>
-          </div>
-          <div class="col-md-4">
-            <button
-              class="btn btn-sm btn-danger"
-              data-id="{{post.id}}"
-            >DELETE</button>
-          </div>
-        </div>
-      {{/each}}
+<div class="teamconstructor">
+  <div class="row d-flex justify-content-center mt-4">
+    <div class="col-auto">
+      <h2>Welcome, {{name}}!</h2>
+      <p>It's time to compete! Choose your team wisely!</p>
     </div>
-  {{/if}}
-</div>
+  </div>
 
+  <div class="row mt-4 d-flex justify-content-center">
+    <div class="col-md-6">
+      <h3>Create your Custom Team:</h3>
+
+      <form class="form new-post-form">
+        <div class="form-group">
+          <label for="teamName">Type your Team Name:</label>
+          <input class="form-input" type="text" id="teamName" name="teamName" />
+        </div>
+        <div class="form-group">
+          <h3>Pick 9 Position Players:</h3>
+          <br />
+          <label for="firstBase">First Base:</label>
+          <br />
+          <select
+            value="firstBase"
+            name="firstBase"
+            id="firstBase"
+            style="width: 25%;"
+          >
+            <option value="firstBase" id="firstBase">First Base:</option>
+          </select>
+          <br />
+          <label for="secondBase">Second Base:</label>
+          <br />
+          <select
+            value="secondBase"
+            name="secondBase"
+            id="secondBase"
+            style="width: 25%;"
+          >
+            <option value="secondBase" id="secondBase">Second Base:</option>
+          </select>
+          <br />
+          <label for="thirdBase">Third Base:</label>
+          <br />
+          <select
+            value="thirdBase"
+            name="thirdBase"
+            id="thirdBase"
+            style="width: 25%;"
+          >
+            <option value="thirdBase" id="thirdBase">Third Base:</option>
+          </select>
+          <br />
+          <label for="shortStop">ShortStop:</label>
+          <br />
+          <select
+            value="shortStop"
+            name="shortStop"
+            id="shortStop"
+            style="width: 25%;"
+          >
+            <option value="shortStop" id="shortStop">ShortStop:</option>
+          </select>
+          <br />
+          <label for="catcher">Catcher:</label>
+          <br />
+          <select
+            value="catcher"
+            name="catcher"
+            id="catcher"
+            style="width: 25%;"
+          >
+            <option value="catcher" id="catcher">Catcher:</option>
+          </select>
+          <br />
+          <label for="leftField">Left Field:</label>
+          <br />
+          <select
+            value="leftField"
+            name="leftField"
+            id="leftField"
+            style="width: 25%;"
+          >
+            <option value="leftField" id="leftField">Left Field:</option>
+          </select>
+          <br />
+          <label for="centerField">Center Field:</label>
+          <br />
+          <select
+            value="centerField"
+            name="centerField"
+            id="centerField"
+            style="width: 25%;"
+          >
+            <option value="centerField" id="centerField">Center Field:</option>
+          </select>
+          <br />
+          <label for="rightField">Right Field:</label>
+          <br />
+          <select
+            value="rightField"
+            name="rightField"
+            id="rightField"
+            style="width: 25%;"
+          >
+            <option value="rightField" id="rightField">Right Field:</option>
+          </select>
+          <br />
+          <label for="dh">Designated Hitter:</label>
+          <br />
+          <select value="dh" name="dh" id="dh" style="width: 25%;">
+            <option value="dh" id="dh">DH:</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="pitcherName">Pick your Starting Pitcher:</label>
+          <br />
+          <select
+            value="pitcherName"
+            name="pitcherName"
+            id="pitcherName"
+            style="width: 25%;"
+          >
+            <option value="pitcherName" id="pitcherName">Starting Pitcher:</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+      </form>
+    </div>
+
+    {{#if selections.length}}
+      <div class="col-md-6 post-list">
+        <h3>Current teams:</h3>
+
+        {{#each selections as |selection|}}
+          <div
+            id="cards"
+            class="card text-white bg-transparent mb-3"
+            style="max-width: 18rem;"
+          >
+            <div id="newteam" class="card-header"><a
+                href="/selection/{{selection.id}}"
+              >{{selection.teamName}}</a></div>
+            <div class="card-body">
+              <h1>{{selection.firstBase}}</h1>
+              <h1>{{selection.secondBase}}</h1>
+              <h1>{{selection.thirdBase}}</h1>
+              <h1>{{selection.shortStop}}</h1>
+              <h1>{{selection.leftField}}</h1>
+              <h1>{{selection.centerField}}</h1>
+              <h1>{{selection.rightField}}</h1>
+              <h1>{{selection.catcher}}</h1>
+              <h1>{{selection.dh}}</h1>
+              <h1>{{selection.pitcherName}}</h1>
+            </div>
+            <div class="col-md-4">
+              <button
+                class="btn btn-sm btn-danger"
+                data-id="{{selection.id}}"
+              >DELETE</button>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</div>
 <script src="./js/profile.js"></script>
 <script src="./js/test.js"></script>

@@ -1,16 +1,15 @@
-header, .project:not(:last-child) {
+header,
+.project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
 body {
-  background-image: url('../images/miami.jpg'); /* Replace with your image file name */
+  background-image: url("../images/miami.jpg"); /* Replace with your image file name */
   background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat;
   background-attachment: fixed; /* Keep the background fixed while scrolling */
 }
-/* body {
-  background-color: #8bdaed;
-} */
+
 .no-button {
   background: none;
   border: none;
@@ -26,62 +25,49 @@ body {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
-}
-
 .logo {
-    height: 400px;
-    width: auto;
-    display: flex;
-    position: absolute;
-    top: -135px;
-    left: -370px;
-    z-index: 2;
-    
+  height: 400px;
+  width: auto;
+  display: flex;
+  position: absolute;
+  top: -135px;
+  left: -350px;
+  z-index: 2;
 }
-
-.form-signin{
+.form-signin {
   width: 100%;
   max-width: 300px;
   padding: 15px;
   margin: auto;
   margin-top: 100px;
   max-height: 500px;
-
-
 }
 .bg-color-light {
   margin-bottom: 70px;
 }
 
-
-
-
 .btn-primary.btn-lg.btn-block {
   /* Change the color property to your desired color */
-  background-color: #3A308F; /* Button background color */
-  border-color: #F7468A; /* Button border color */
+  background-color: #3a308f; /* Button background color */
+  border-color: #f7468a; /* Button border color */
   border-width: 3px;
-  color: #34C2F0; /* Text color */
+  color: #34c2f0; /* Text color */
   font-weight: bold;
 }
 
 /* Target the "Sign in" button on hover */
 .btn-primary.btn-lg.btn-block:hover {
   /* Change the color property to your desired color */
-  background-color: #F7468A; /* Button background color on hover */
-  border-color: #F7468A; /* Button border color on hover */
+  background-color: #f7468a; /* Button background color on hover */
+  border-color: #f7468a; /* Button border color on hover */
   border-width: 3px;
-  color: #34C2F0; /* Text color on hover */
+  color: #34c2f0; /* Text color on hover */
 }
 .btn-outline-light.me-2 {
   /* Change the color property to your desired color */
-  color: #34C2F0; /* Text color */
+  color: #34c2f0; /* Text color */
   border-width: 3px;
-  border-color: #34C2F0; /* Border color */
+  border-color: #34c2f0; /* Border color */
   font-weight: bold;
 }
 
@@ -95,7 +81,7 @@ body {
 
 /* Optional: To change the background color of the buttons */
 .btn-outline-light.me-2 {
-  background-color: #3A308F;
+  background-color: #3a308f;
 }
 
 /* Optional: To change the background color of the buttons on hover */
@@ -105,7 +91,7 @@ body {
 
 .form-signin {
   /* Change the color property to your desired color */
-  color:#000000; /* Text color for the entire form */
+  color: #000000; /* Text color for the entire form */
   font-weight: bold;
 }
 
@@ -131,8 +117,8 @@ body {
 }
 
 .custom-btn-color {
-  background-color: #f7468A;
-  border-color: #f7468A; /* Optional: Change border color */
+  background-color: #f7468a;
+  border-color: #f7468a; /* Optional: Change border color */
   color: #fff;
   font-weight: bold;
 }
@@ -144,7 +130,7 @@ body {
 }
 
 .form-signin .text-muted {
-  color: #3A308F;
+  color: #3a308f;
   font-weight: bold;
 }
 .card-body {
@@ -190,6 +176,18 @@ body {
   /* Add more styles as needed */
 }
 
+.teamconstructor {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+label{
+  font-weight: bold;
+  color: #000000;
+}
+
+option{
+  font-weight: bold;
+}
 /* Style for the delete button */
 .card-body .btn-danger {
   margin-top: 10px;
