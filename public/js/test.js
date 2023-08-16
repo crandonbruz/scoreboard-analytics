@@ -9,6 +9,7 @@ const centerFieldElement = document.querySelector("#centerField");
 const rightFieldElement = document.querySelector("#rightField");
 const dhElement = document.querySelector("#dh");
 const pitcherNameElement = document.querySelector("#pitcherName");
+
 // make element for each position
 
 async function fetchData() {
