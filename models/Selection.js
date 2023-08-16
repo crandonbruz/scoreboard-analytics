@@ -1,5 +1,5 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Selection extends Model {}
 
@@ -19,32 +19,32 @@ Selection.init(
       type: DataTypes.STRING,
     },
     pitcherName: {
-        type: DataTypes.STRING,
-      },
-      secondBase: {
-        type: DataTypes.STRING,
-      },
-      thirdBase: {
-        type: DataTypes.STRING,
-      },
-      shortStop: {
-        type: DataTypes.STRING,
-      },
-      catcher: {
-        type: DataTypes.STRING,
-      },
-      leftField: {
-        type: DataTypes.STRING,
-      },
-      centerField: {
-        type: DataTypes.STRING,
-      },
-      rightField: {
-        type: DataTypes.STRING,
-      },
-      dh: {
-        type: DataTypes.STRING,
-      },
+      type: DataTypes.STRING,
+    },
+    secondBase: {
+      type: DataTypes.STRING,
+    },
+    thirdBase: {
+      type: DataTypes.STRING,
+    },
+    shortStop: {
+      type: DataTypes.STRING,
+    },
+    catcher: {
+      type: DataTypes.STRING,
+    },
+    leftField: {
+      type: DataTypes.STRING,
+    },
+    centerField: {
+      type: DataTypes.STRING,
+    },
+    rightField: {
+      type: DataTypes.STRING,
+    },
+    dh: {
+      type: DataTypes.STRING,
+    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
@@ -53,8 +53,8 @@ Selection.init(
     user_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
-        key: 'id',
+        model: "user",
+        key: "id",
       },
     },
   },
@@ -63,7 +63,7 @@ Selection.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'selection',
+    modelName: "selection",
   }
 );
 
