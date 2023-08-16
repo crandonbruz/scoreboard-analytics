@@ -1,24 +1,29 @@
-    <div class="card-body">
-      <h4 class="card-title"><a href="/selection/{{selection.id}}">{{selection.teamName}}</a></h4>
-      <div class="player-info">
-        <h1>{{selection.firstBase}}</h1>
-        <h1>{{selection.secondBase}}</h1>
-        <h1>{{selection.thirdBase}}</h1>
-        <h1>{{selection.shortStop}}</h1>
-        <h1>{{selection.leftField}}</h1>
-        <h1>{{selection.centerField}}</h1>
-        <h1>{{selection.rightField}}</h1>
-        <h1>{{selection.catcher}}</h1>
-        <h1>{{selection.pitcherName}}</h1>
+<div class="card-container">
+  {{#each selections as |selection|}}
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title"><a
+            href="/selection/{{selection.id}}"
+          >{{selection.teamName}}</a></h4>
+        <div class="player-info">
+          <h1>{{selection.firstBase}}</h1>
+          <h1>{{selection.secondBase}}</h1>
+          <h1>{{selection.thirdBase}}</h1>
+          <h1>{{selection.shortStop}}</h1>
+          <h1>{{selection.leftField}}</h1>
+          <h1>{{selection.centerField}}</h1>
+          <h1>{{selection.rightField}}</h1>
+          <h1>{{selection.catcher}}</h1>
+          <h1>{{selection.pitcherName}}</h1>
+          <h1>{{selection.dh}}</h1>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <button
+          class="btn btn-sm btn-danger"
+          data-id="{{selection.id}}"
+        >DELETE</button>
       </div>
     </div>
-    <div class="col-md-4">
-      <button
-        class="btn btn-sm btn-danger"
-        data-id="{{selection.id}}"
-      >DELETE</button>
-    </div>
-  </div>
   {{/each}}
 </div>
-

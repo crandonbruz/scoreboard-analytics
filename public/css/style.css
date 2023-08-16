@@ -159,7 +159,6 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   background-color: rgba(255, 255, 255, 0.4); /* 60% transparent white */
-
 }
 
 .player-info {
@@ -196,8 +195,8 @@ option{
   font-size: 25px; 
   color: #000000;
 }
-#card{
+/* #card{
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-}
+} */
