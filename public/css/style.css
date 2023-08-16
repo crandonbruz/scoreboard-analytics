@@ -38,7 +38,7 @@ body {
     display: flex;
     position: absolute;
     top: -135px;
-    left: -350px;
+    left: -370px;
     z-index: 2;
     
 }
@@ -146,4 +146,58 @@ body {
 .form-signin .text-muted {
   color: #3A308F;
   font-weight: bold;
+}
+
+/* Apply Flexbox to the card-body----------------------------------------------------------------------------------- */
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px; /* Adjust margin as needed for spacing */
+  padding-left: 120px ;
+  padding-right: 120px;
+}
+
+.card {
+  display: flex; /* Use flexbox to center the content */
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  flex-basis: calc(20% - 20px); /* Adjust width and margin as needed */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.4); /* 60% transparent white */
+
+}
+
+.player-info {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Style for individual player names */
+/* ____________________________________________________________________ */
+.player-info h1 {
+  font-size: 24px;
+  margin: 5px;
+  /* Add more styles as needed */
+}
+
+/* Style for the delete button */
+.card-body .btn-danger {
+  margin-top: 10px;
+}
+.card-title a {
+  font-size: 25px; 
+  color: #000000; 
 }
