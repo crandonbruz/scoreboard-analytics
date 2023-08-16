@@ -42,9 +42,9 @@ Selection.init(
       rightField: {
         type: DataTypes.STRING,
       },
-      // dh: {
-      //   type: DataTypes.STRING,
-      // },
+      dh: {
+        type: DataTypes.STRING,
+      },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,

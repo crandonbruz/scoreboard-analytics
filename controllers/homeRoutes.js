@@ -27,9 +27,9 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/post/:id', async (req, res) => {
+router.get('/selection/:id', async (req, res) => {
   try {
-    const postData = await Post.findByPk(req.params.id, {
+    const selectionData = await Selection.findByPk(req.params.id, {
       include: [
         {
           model: User,
@@ -41,11 +41,11 @@ router.get('/post/:id', async (req, res) => {
       ],
     });
 
-    const post = postData.get({ plain: true });
+    const selection = selectionData.get({ plain: true });
 
-    console.log(post)
+    console.log(selection)
 
-    res.render('single-post', {
+    res.render('dashboard', {
       post,
       logged_in: req.session.logged_in
     });
