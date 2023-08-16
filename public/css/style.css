@@ -33,12 +33,12 @@ body {
 }
 
 .logo {
-    height: 300px;
+    height: 400px;
     width: auto;
     display: flex;
     position: absolute;
-    top: -80px;
-    left: 30px;
+    top: -135px;
+    left: -350px;
     z-index: 2;
     
 }
@@ -105,7 +105,7 @@ body {
 
 .form-signin {
   /* Change the color property to your desired color */
-  color: 255 255 255 255; /* Text color for the entire form */
+  color:#000000; /* Text color for the entire form */
   font-weight: bold;
 }
 
@@ -128,13 +128,7 @@ body {
 .form-signin button,
 .form-signin p {
   margin-bottom: 0;
-
-
-
-
-
-
-
+}
 
 .custom-btn-color {
   background-color: #f7468A;
@@ -147,4 +141,9 @@ body {
   background-color: #d43f74; /* Darker color on hover */
   border-color: #d43f74; /* Optional: Darker border color on hover */
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.form-signin .text-muted {
+  color: #3A308F;
+  font-weight: bold;
 }
