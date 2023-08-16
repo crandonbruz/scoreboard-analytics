@@ -9,10 +9,10 @@ const thirdBaseElement = document.querySelector("#thirdBase")
 const shortStopElement = document.querySelector("#shortStop")
 const catcherElement = document.querySelector("#catcher")
 const leftFieldElement = document.querySelector("#leftField")
-const rightFieldElement = document.querySelector("#rightField")
 const centerFieldElement = document.querySelector("#centerField")
-const pitcherNameElement = document.querySelector("#pitcherName")
+const rightFieldElement = document.querySelector("#rightField")
 const dhElement = document.querySelector("#dh")
+const pitcherNameElement = document.querySelector("#pitcherName")
 // make element for each position
 
 async function fetchData() {
@@ -53,6 +53,7 @@ fetchData().then(data => {
         }
     }
     console.log(activePlayers.length)
+    const dh = []
     const cf = []
     const rf = []
     const lf = []
@@ -112,7 +113,6 @@ fetchData().then(data => {
     console.log(catcher)
     console.log(startingPitcher)
     console.log(dh)
-
 
     for (let i = 0; i < firstBase.length; i++) {
         let nextFirstBasemen = document.createElement("option")
@@ -176,7 +176,68 @@ fetchData().then(data => {
     }
 
     // make for loop for each position dont forget element
+    for (let i = 0; i < secondBase.length; i++) {
+        let nextsecondBasemen = document.createElement("option")
+        nextsecondBasemen.setAttribute("value", secondBase[i].Name)
+        nextsecondBasemen.textContent = `${secondBase[i].Name} - ${secondBase[i].Team}`
+        secondBaseElement.append(nextsecondBasemen)
+    }
 
+    for (let i = 0; i < thirdBase.length; i++) {
+        let nextthirdBasemen = document.createElement("option")
+        nextthirdBasemen.setAttribute("value", thirdBase[i].Name)
+        nextthirdBasemen.textContent = `${thirdBase[i].Name} - ${thirdBase[i].Team}`
+        thirdBaseElement.append(nextthirdBasemen)
+    }
+
+    for (let i = 0; i < ss.length; i++) {
+        let nextshortStopmen = document.createElement("option")
+        nextshortStopmen.setAttribute("value", ss[i].Name)
+        nextshortStopmen.textContent = `${ss[i].Name} - ${ss[i].Team}`
+        shortStopElement.append(nextshortStopmen)
+    }
+
+    for (let i = 0; i < catcher.length; i++) {
+        let nextcatchermen = document.createElement("option")
+        nextcatchermen.setAttribute("value", catcher[i].Name)
+        nextcatchermen.textContent = `${catcher[i].Name} - ${catcher[i].Team}`
+        catcherElement.append(nextcatchermen)
+    }
+
+    for (let i = 0; i < lf.length; i++) {
+        let nextleftFieldmen = document.createElement("option")
+        nextleftFieldmen.setAttribute("value", lf[i].Name)
+        nextleftFieldmen.textContent = `${lf[i].Name} - ${lf[i].Team}`
+        leftFieldElement.append(nextleftFieldmen)
+    }
+
+    for (let i = 0; i < cf.length; i++) {
+        let nextcenterFieldmen = document.createElement("option")
+        nextcenterFieldmen.setAttribute("value", cf[i].Name)
+        nextcenterFieldmen.textContent = `${cf[i].Name} - ${cf[i].Team}`
+        centerFieldElement.append(nextcenterFieldmen)
+    }
+
+    for (let i = 0; i < rf.length; i++) {
+        let nextrightFieldmen = document.createElement("option")
+        nextrightFieldmen.setAttribute("value", rf[i].Name)
+        nextrightFieldmen.textContent = `${rf[i].Name} - ${rf[i].Team}`
+        rightFieldElement.append(nextrightFieldmen)
+    }
+
+    for (let i = 0; i < dh.length; i++) {
+        let nextdhmen = document.createElement("option")
+        nextdhmen.setAttribute("value", dh[i].Name)
+        nextdhmen.textContent = `${dh[i].Name} - ${dh[i].Team}`
+        dhElement.append(nextdhmen)
+    }
+
+    for (let i = 0; i < startingPitcher.length; i++) {
+        let nextpitcherNamemen = document.createElement("option")
+        nextpitcherNamemen.setAttribute("value", startingPitcher[i].Name)
+        nextpitcherNamemen.textContent = `${startingPitcher[i].Name} - ${startingPitcher[i].Team}`
+        pitcherNameElement.append(nextpitcherNamemen)
+    }
 
 
     // for (let player of cf) {
