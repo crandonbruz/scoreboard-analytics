@@ -147,8 +147,6 @@ body {
   color: #3A308F;
   font-weight: bold;
 }
-
-/* Apply Flexbox to the card-body----------------------------------------------------------------------------------- */
 .card-body {
   display: flex;
   flex-wrap: wrap;
@@ -186,7 +184,6 @@ body {
 }
 
 /* Style for individual player names */
-/* ____________________________________________________________________ */
 .player-info h1 {
   font-size: 24px;
   margin: 5px;
@@ -199,5 +196,10 @@ body {
 }
 .card-title a {
   font-size: 25px; 
-  color: #000000; 
+  color: #000000;
+}
+#card{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
