@@ -4,6 +4,10 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
   console.log(req.body);
+router.post('/', async (req, res) => {
+  console.log(req.body);
+  console.log(req.session.user_id)
+
   try {
     const newSelection = await Selection.create({
       ...req.body,

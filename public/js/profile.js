@@ -2,7 +2,6 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   console.log('Form submit button clicked');
-
   
   const teamName  = document.querySelector('#teamName').value.trim();
   const pitcherName  = document.querySelector('#pitcherName').value.trim();
@@ -18,22 +17,22 @@ const newFormHandler = async (event) => {
   
   const centerField  = document.querySelector('#centerField').value.trim();
   const rightField  = document.querySelector('#rightField').value.trim();
-  // const dh  = document.querySelector('#dh').value.trim();
+  const dh  = document.querySelector('#dh').value.trim();
   
   console.log('Team Name:', teamName);
   // ... other fields ...
-console.log({teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField  })
-  if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField ) {
+console.log({teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  })
+  if (  teamName && pitcherName && firstBase && secondBase && thirdBase && shortStop && catcher && leftField && centerField && rightField && dh ) {
     console.log('pitcherName:', pitcherName);
     const response = await fetch(`/api/selection`, {
       method: 'POST',
-      body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField  }),
+      body: JSON.stringify({  teamName, pitcherName, firstBase, secondBase, thirdBase, shortStop, catcher, leftField, centerField, rightField, dh  }),
       headers: {
         'Content-Type': 'application/json',
       },
-      
+
     });
-    
+
 
     if (response.ok) {
       document.location.replace('/profile');

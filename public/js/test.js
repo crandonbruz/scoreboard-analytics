@@ -13,7 +13,6 @@ const centerFieldElement = document.querySelector("#centerField")
 const rightFieldElement = document.querySelector("#rightField")
 const dhElement = document.querySelector("#dh")
 const pitcherNameElement = document.querySelector("#pitcherName")
-
 // make element for each position
 
 async function fetchData() {
@@ -64,6 +63,7 @@ fetchData().then(data => {
     const thirdBase = []
     const catcher = []
     const startingPitcher = []
+    const dh = []
 
 
     // const
@@ -114,14 +114,67 @@ fetchData().then(data => {
     console.log(startingPitcher)
     console.log(dh)
 
-
-
     for (let i = 0; i < firstBase.length; i++) {
         let nextFirstBasemen = document.createElement("option")
         nextFirstBasemen.setAttribute("value", firstBase[i].Name)
         nextFirstBasemen.textContent = `${firstBase[i].Name} - ${firstBase[i].Team}`
         firstBaseElement.append(nextFirstBasemen)
     }
+    for (let i = 0; i < secondBase.length; i++) {
+        let nextSecondBasemen = document.createElement("option")
+        nextSecondBasemen.setAttribute("value", secondBase[i].Name)
+        nextSecondBasemen.textContent = `${secondBase[i].Name} - ${secondBase[i].Team}`
+        secondBaseElement.append(nextSecondBasemen)
+    }
+    for (let i = 0; i < thirdBase.length; i++) {
+        let nextThirdBasemen = document.createElement("option")
+        nextThirdBasemen.setAttribute("value", thirdBase[i].Name)
+        nextThirdBasemen.textContent = `${thirdBase[i].Name} - ${thirdBase[i].Team}`
+        thirdBaseElement.append(nextThirdBasemen)
+    }
+    for (let i = 0; i < shortStop.length; i++) {
+        let nextShortStop = document.createElement("option")
+        nextShortStop.setAttribute("value", ss[i].Name)
+        nextShortStop.textContent = `${ss[i].Name} - ${ss[i].Team}`
+        shortStopElement.append(nextShortStop)
+    }
+    for (let i = 0; i < catcher.length; i++) {
+        let nextCatcher = document.createElement("option")
+        nextCatcher.setAttribute("value", catcher[i].Name)
+        nextCatcher.textContent = `${catcher[i].Name} - ${catcher[i].Team}`
+        catcherElement.append(nextCatcher)
+    }
+    for (let i = 0; i < leftField.length; i++) {
+        let nextLeftFielder = document.createElement("option")
+        nextLeftFielder.setAttribute("value", lf[i].Name)
+        nextLeftFielder.textContent = `${lf[i].Name} - ${lf[i].Team}`
+        leftFieldElement.append(nextLeftFielder)
+    }
+    for (let i = 0; i < rightField.length; i++) {
+        let nextRightFielder = document.createElement("option")
+        nextRightFielder.setAttribute("value", rf[i].Name)
+        nextRightFielder.textContent = `${rf[i].Name} - ${rf[i].Team}`
+        rightFieldElement.append(nextRightFielder)
+    }
+    for (let i = 0; i < centerField.length; i++) {
+        let nextCenterFielder = document.createElement("option")
+        nextCenterFielder.setAttribute("value", cf[i].Name)
+        nextCenterFielder.textContent = `${cf[i].Name} - ${cf[i].Team}`
+        centerFieldElement.append(nextCenterFielder)
+    }
+    for (let i = 0; i < dh.length; i++) {
+        let nextDh = document.createElement("option")
+        nextDh.setAttribute("value", dh[i].Name)
+        nextDh.textContent = `${dh[i].Name} - ${dh[i].Team}`
+        dhElement.append(nextDh)
+    }
+    for (let i = 0; i < pitcherName.length; i++) {
+        let nextPitcherName = document.createElement("option")
+        nextPitcherName.setAttribute("value", startingPitcher[i].Name)
+        nextPitcherName.textContent = `${startingPitcher[i].Name} - ${startingPitcher[i].Team}`
+        pitcherNameElement.append(nextPitcherName)
+    }
+
     // make for loop for each position dont forget element
     for (let i = 0; i < secondBase.length; i++) {
         let nextsecondBasemen = document.createElement("option")
