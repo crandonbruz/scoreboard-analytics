@@ -16,8 +16,8 @@ ISC (http://opensource.org/licenses/ISC)
 ## How to Contribute
 Cashapp: crandonbruz
 Venmo: Cristofferb7
-## Tests
-Test the page and find out!
+## link to page
+[Test the page and find out!](https://scoreboard-analytics-ce788d556490.herokuapp.com/)
 ## Questions
 - Email:
 bcruz12127@gmail.com 
